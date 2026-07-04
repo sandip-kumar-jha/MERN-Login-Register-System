@@ -157,5 +157,3 @@ Sandip Kumar jha
 
 
 IIT Patna
-
-GitHub: https://github.com/your-username
