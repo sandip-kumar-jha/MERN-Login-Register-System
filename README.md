@@ -70,7 +70,7 @@ https://tranquil-faun-1e6fed.netlify.app/login
 cd client
 npm install
 npm run dev
-( https://tranquil-faun-1e6fed.netlify.app/register )
+ https://tranquil-faun-1e6fed.netlify.app/register 
 
 https://tranquil-faun-1e6fed.netlify.app/login
 
