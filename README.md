@@ -61,6 +61,7 @@ Login Register/
 
 ```bash
 https://github.com/sandip-kumar-jha/MERN-Login-Register-System
+https://tranquil-faun-1e6fed.netlify.app/login
 ```
 
 ### Frontend
@@ -69,6 +70,7 @@ https://github.com/sandip-kumar-jha/MERN-Login-Register-System
 cd client
 npm install
 npm run dev
+( https://tranquil-faun-1e6fed.netlify.app/register )
 ```
 
 ### Backend
@@ -140,6 +142,10 @@ Document Example
 - Register Page
 - Login Page
 - Home Page
+   <img width="528" height="631" alt="Screenshot 2026-07-04 212040" src="https://github.com/user-attachments/assets/e8c2cc96-d775-4055-a072-61ac168f75be" />
+   <img width="667" height="557" alt="Screenshot 2026-07-04 212155" src="https://github.com/user-attachments/assets/8edb2eda-176d-4e20-97f1-3e64446212ab" />
+
+
 
 ## Future Improvements
 
