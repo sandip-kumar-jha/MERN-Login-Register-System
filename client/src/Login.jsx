@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
@@ -12,7 +11,7 @@ function Login() {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3001/login", {
+      .post("https://mern-login-register-system.onrender.com/login", {
         email,
         password,
       })
@@ -21,9 +20,14 @@ function Login() {
 
         if (result.data === "Success") {
           navigate("/home");
+        } else {
+          alert(result.data);
         }
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        alert("Something went wrong!");
+      });
   };
 
   return (
@@ -48,7 +52,7 @@ function Login() {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="email">
+            <label htmlFor="password">
               <strong>Password</strong>
             </label>
 
@@ -69,7 +73,7 @@ function Login() {
           </button>
         </form>
 
-        <p>Already Have an Account</p>
+        <p className="mt-2">Don't have an account?</p>
 
         <Link
           to="/register"
